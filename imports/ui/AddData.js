@@ -46,11 +46,15 @@ export default class AddData extends React.Component{
     e.target.profession.value = '';
     e.target.uploadedfile.value = null;
     this.setState({
-      isUploaded: false
+      isUploaded: false,
+      userName: '',
+      age: '',
+      profession: '',
     })
       
   }
 
+  
   // insertUserName(e){
   //   this.setState({
   //     userName: e.target.value,   
